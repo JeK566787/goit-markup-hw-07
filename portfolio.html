@@ -17,32 +17,37 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <link rel="stylesheet" href="css/common.css" />
-    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/main.min.css" />
   </head>
   <body>
-    <header class="header border-bottom">
-      <div class="header-area container">
-        <a href="" class="header-logo"><span>Web</span>Studio</a>
-        <nav class="site-nav">
-          <ul class="nav-items">
-            <li class="nav-item"><a href="./index.html" class="nav-link">Студія</a></li>
-            <li class="nav-item"><a href="" class="nav-link current">Портфоліо</a></li>
-            <li class="nav-item"><a href="" class="nav-link">Контакти</a></li>
+    <header class="header">
+      <div class="header__area container">
+        <a href="" class="header__logo"><span class="header__logo--web">Web</span>Studio</a>
+        <nav class="header__nav">
+          <ul class="header__nav-items">
+            <li class="header__nav-item">
+              <a href="./index.html" class="header__nav-link">Студія</a>
+            </li>
+            <li class="header__nav-item">
+              <a href="" class="header__nav-link header__nav-link--current">Портфоліо</a>
+            </li>
+            <li class="header__nav-item">
+              <a href="" class="nav-link header__nav-link">Контакти</a>
+            </li>
           </ul>
         </nav>
-        <ul class="head-addresses">
-          <li class="head-address">
-            <a href="mailto:info@devstudio.com" class="head-adr-link"
-              ><svg class="head-link-icon" width="16" height="12">
+        <ul class="header__addresses">
+          <li class="header__address">
+            <a href="mailto:info@devstudio.com" class="header__adr-link"
+              ><svg class="header__link-icon" width="16" height="12">
                 <use href="./images/icons.svg#icon-envelope"></use>
               </svg>
               info@devstudio.com
             </a>
           </li>
-          <li class="head-address">
-            <a href="tel:+380961111111" class="head-adr-link"
-              ><svg class="head-link-icon" width="10" height="16">
+          <li class="header__address">
+            <a href="tel:+380961111111" class="header__adr-link"
+              ><svg class="header__link-icon" width="10" height="16">
                 <use href="./images/icons.svg#icon-smartphone"></use>
               </svg>
               +38 096 111 11 11
