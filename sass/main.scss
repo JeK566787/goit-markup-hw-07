@@ -1,4 +1,9 @@
 @import 'utils/var';
-body {
-  background-color: red($color: #000000);
-}
+@import 'base/reset';
+@import 'base/common';
+@import 'layouts/header';
+@import 'layouts/main-page';
+@import 'components/hero-btn';
+@import 'layouts/footer';
+@import 'layouts/main-port';
+@import 'components/modal';
